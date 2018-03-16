@@ -15,6 +15,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/demo', function () {
+    return view('demo');
+});
+
+Route::get('/movies', function () {
+    return view('movies');
+});
+
+Route::get('/movie', function () {
+    return view('movie');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

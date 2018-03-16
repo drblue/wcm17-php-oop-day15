@@ -27,7 +27,23 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="/movies">Movies</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/actors">Actors</a>
+						</li>
 
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Categories
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="/categories/action">Action</a>
+								<a class="dropdown-item" href="/categories/drama">Drama</a>
+								<a class="dropdown-item" href="/categories/comedy">Comedy</a>
+							</div>
+						</li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
